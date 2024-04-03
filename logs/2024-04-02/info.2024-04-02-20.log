@@ -1,0 +1,972 @@
+2024-04-02 21:04:03,349 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2024-04-02 21:04:03,349 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2024-04-02 21:04:03,378 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-04-02 21:04:03,378 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-04-02 21:04:03,384 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-04-02 21:04:03,384 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-04-02 21:04:03,389 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-04-02 21:04:03,389 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-04-02 21:04:03,390 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-04-02 21:04:03,390 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-04-02 21:04:03,390 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-04-02 21:04:03,390 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-04-02 21:04:03,394 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-04-02 21:04:03,394 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-04-02 21:04:03,420 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-04-02 21:04:03,420 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-04-02 21:04:03,555 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-04-02 21:04:03,555 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-04-02 21:04:03,566 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-04-02 21:04:03,566 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-04-02 21:04:03,567 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-04-02 21:04:03,567 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-04-02 21:04:03,568 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-04-02 21:04:03,568 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-04-02 21:04:03,569 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-04-02 21:04:03,569 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-04-02 21:04:03,569 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-04-02 21:04:03,569 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-04-02 21:04:03,886 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-04-02 21:04:03,886 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-04-02 21:04:04,502 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-04-02 21:04:04,502 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-04-02 21:04:04,593 INFO [main][GenericScope.java:295] - BeanFactory id=6d0ed396-0a90-3012-b9a4-bbe2c0f4a4d9
+2024-04-02 21:04:04,593 INFO [main][GenericScope.java:295] - BeanFactory id=6d0ed396-0a90-3012-b9a4-bbe2c0f4a4d9
+2024-04-02 21:04:04,833 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2024-04-02 21:04:04,833 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2024-04-02 21:04:04,841 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2024-04-02 21:04:04,841 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2024-04-02 21:04:04,841 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-04-02 21:04:04,841 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-04-02 21:04:04,841 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-04-02 21:04:04,841 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-04-02 21:04:04,903 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-04-02 21:04:04,903 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-04-02 21:04:04,903 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 999 ms
+2024-04-02 21:04:04,903 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 999 ms
+2024-04-02 21:04:05,004 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c
+2024-04-02 21:04:05,004 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c
+2024-04-02 21:04:05,049 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@29bd85db'
+2024-04-02 21:04:05,049 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@29bd85db'
+2024-04-02 21:04:05,050 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-04-02 21:04:05,050 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-04-02 21:04:05,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
+2024-04-02 21:04:05,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
+2024-04-02 21:04:05,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
+2024-04-02 21:04:05,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
+2024-04-02 21:04:05,176 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
+2024-04-02 21:04:05,176 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
+2024-04-02 21:04:05,194 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
+2024-04-02 21:04:05,194 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
+2024-04-02 21:04:05,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
+2024-04-02 21:04:05,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
+2024-04-02 21:04:05,201 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
+2024-04-02 21:04:05,201 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
+2024-04-02 21:04:05,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
+2024-04-02 21:04:05,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
+2024-04-02 21:04:05,207 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
+2024-04-02 21:04:05,207 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
+2024-04-02 21:04:05,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
+2024-04-02 21:04:05,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
+2024-04-02 21:04:05,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
+2024-04-02 21:04:05,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
+2024-04-02 21:04:05,212 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
+2024-04-02 21:04:05,212 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
+2024-04-02 21:04:05,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
+2024-04-02 21:04:05,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
+2024-04-02 21:04:05,215 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
+2024-04-02 21:04:05,215 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
+2024-04-02 21:04:05,218 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
+2024-04-02 21:04:05,218 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
+2024-04-02 21:04:05,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
+2024-04-02 21:04:05,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
+2024-04-02 21:04:05,222 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
+2024-04-02 21:04:05,222 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
+2024-04-02 21:04:05,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-04-02 21:04:05,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-04-02 21:04:05,530 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-02 21:04:05,530 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-02 21:04:05,558 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-04-02 21:04:05,558 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-04-02 21:04:05,559 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-04-02 21:04:05,559 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-04-02 21:04:05,559 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-04-02 21:04:05,559 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-04-02 21:04:05,560 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-04-02 21:04:05,560 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-04-02 21:04:05,560 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-04-02 21:04:05,560 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-04-02 21:04:05,561 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-04-02 21:04:05,561 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-04-02 21:04:05,561 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-04-02 21:04:05,561 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-04-02 21:04:05,561 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-04-02 21:04:05,561 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-04-02 21:04:05,561 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-04-02 21:04:05,561 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-04-02 21:04:05,562 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-04-02 21:04:05,562 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-04-02 21:04:05,563 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-04-02 21:04:05,563 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-04-02 21:04:05,564 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-04-02 21:04:05,564 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-04-02 21:04:05,569 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-04-02 21:04:05,569 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-04-02 21:04:05,570 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-04-02 21:04:05,570 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-04-02 21:04:05,570 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-04-02 21:04:05,570 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-04-02 21:04:05,570 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-04-02 21:04:05,570 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-04-02 21:04:05,623 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-02 21:04:05,623 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-02 21:04:05,725 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2024-04-02 21:04:05,725 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2024-04-02 21:04:05,795 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2024-04-02 21:04:05,795 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2024-04-02 21:04:05,840 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2024-04-02 21:04:05,840 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2024-04-02 21:04:05,841 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-04-02 21:04:05,841 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-04-02 21:04:05,851 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-04-02 21:04:05,851 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-04-02 21:04:05,871 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-04-02 21:04:05,871 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-04-02 21:04:05,888 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 3.009 seconds (JVM running for 4.67)
+2024-04-02 21:04:05,888 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 3.009 seconds (JVM running for 4.67)
+2024-04-02 21:04:13,219 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 21:04:13,219 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 21:04:13,219 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-04-02 21:04:13,219 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-04-02 21:04:13,224 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2024-04-02 21:04:13,224 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2024-04-02 21:04:13,307 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2024-04-02 21:04:13,307 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - catalog.........................none
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - catalog.........................none
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2024-04-02 21:04:13,309 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2024-04-02 21:04:13,310 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2024-04-02 21:04:13,310 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2024-04-02 21:04:13,311 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2024-04-02 21:04:13,311 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2024-04-02 21:04:13,312 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSource......................none
+2024-04-02 21:04:13,312 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSource......................none
+2024-04-02 21:04:13,312 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2024-04-02 21:04:13,312 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2024-04-02 21:04:13,313 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2024-04-02 21:04:13,313 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2024-04-02 21:04:13,314 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2024-04-02 21:04:13,314 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2024-04-02 21:04:13,314 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-04-02 21:04:13,314 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-04-02 21:04:13,315 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2024-04-02 21:04:13,315 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2024-04-02 21:04:13,315 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2024-04-02 21:04:13,315 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2024-04-02 21:04:13,316 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2024-04-02 21:04:13,316 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2024-04-02 21:04:13,316 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2024-04-02 21:04:13,316 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2024-04-02 21:04:13,317 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2024-04-02 21:04:13,317 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2024-04-02 21:04:13,318 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2024-04-02 21:04:13,318 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2024-04-02 21:04:13,319 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xc402_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2024-04-02 21:04:13,319 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xc402_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2024-04-02 21:04:13,320 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2024-04-02 21:04:13,320 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2024-04-02 21:04:13,320 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2024-04-02 21:04:13,320 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2024-04-02 21:04:13,320 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2024-04-02 21:04:13,320 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - password........................<masked>
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - password........................<masked>
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2024-04-02 21:04:13,321 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - readOnly........................false
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - readOnly........................false
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - schema..........................none
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - schema..........................none
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2024-04-02 21:04:13,322 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2024-04-02 21:04:13,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2024-04-02 21:04:13,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2024-04-02 21:04:13,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - username........................"root"
+2024-04-02 21:04:13,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - username........................"root"
+2024-04-02 21:04:13,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2024-04-02 21:04:13,323 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2024-04-02 21:04:13,323 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-04-02 21:04:13,323 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-04-02 21:04:34,454 DEBUG [http-nio-63110-exec-1][PoolBase.java:372] - HikariPool-1 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-04-02 21:04:34,454 DEBUG [http-nio-63110-exec-1][PoolBase.java:372] - HikariPool-1 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-04-02 21:04:34,455 DEBUG [http-nio-63110-exec-1][HikariPool.java:503] - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:65)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:173)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:78)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$53e8ff6e.queryAll(<generated>)
+	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 96 more
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 99 more
+2024-04-02 21:04:34,455 DEBUG [http-nio-63110-exec-1][HikariPool.java:503] - HikariPool-1 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:65)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:173)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:78)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$53e8ff6e.queryAll(<generated>)
+	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 96 more
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 99 more
+2024-04-02 21:04:35,482 ERROR [http-nio-63110-exec-1][HikariPool.java:593] - HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:65)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:173)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:78)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$53e8ff6e.queryAll(<generated>)
+	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 96 more
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 99 more
+2024-04-02 21:04:35,482 ERROR [http-nio-63110-exec-1][HikariPool.java:593] - HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:65)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:173)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:78)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$53e8ff6e.queryAll(<generated>)
+	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 96 more
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 99 more
+2024-04-02 21:04:35,496 ERROR [http-nio-63110-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
+### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:65)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:173)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:78)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$53e8ff6e.queryAll(<generated>)
+	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-04-02 21:04:35,496 ERROR [http-nio-63110-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
+### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.prepareStatement(MybatisSimpleExecutor.java:93)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:65)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:173)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:78)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
+	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$53e8ff6e.queryAll(<generated>)
+	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-04-02 21:08:49,746 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-04-02 21:08:49,746 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-04-02 21:08:49,756 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-02 21:08:49,756 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'

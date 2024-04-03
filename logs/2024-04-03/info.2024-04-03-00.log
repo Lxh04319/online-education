@@ -1,0 +1,342 @@
+2024-04-03 00:00:18,981 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:00:18,981 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:00:18,987 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:00:18,987 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:00:30,555 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:00:30,555 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:00:30,556 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:00:30,556 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:00:49,003 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:00:49,003 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:00:49,005 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:00:49,005 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:00,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:00,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:00,564 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:00,564 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:19,014 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:19,014 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:19,016 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:19,016 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:30,568 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:30,568 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:30,569 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:30,569 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:49,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:49,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:01:49,031 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:01:49,031 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:00,584 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:00,584 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:00,584 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:00,584 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:19,040 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:19,040 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:19,040 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:19,040 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:30,588 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:30,588 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:30,588 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:30,588 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:49,045 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:49,045 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:02:49,046 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:02:49,046 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:00,599 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:00,599 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:00,599 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:00,599 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:19,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:19,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:19,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:19,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:30,614 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:30,614 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:30,615 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:30,615 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:49,056 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:49,056 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:03:49,056 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:03:49,056 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:00,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:00,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:00,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:00,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:19,060 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:19,060 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:19,061 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:19,061 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:30,635 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:30,635 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:30,635 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:30,635 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:49,065 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:49,065 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:04:49,066 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:04:49,066 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:00,641 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:00,641 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:00,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:00,642 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:19,075 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:19,075 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:19,075 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:19,075 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:30,656 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:30,656 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:30,657 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:30,657 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:49,079 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:49,079 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:05:49,079 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:05:49,079 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:00,668 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:00,668 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:00,669 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:00,669 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:19,083 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:19,083 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:19,083 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:19,083 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:30,682 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:30,682 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:30,683 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:30,683 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:49,096 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:49,096 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:06:49,096 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:06:49,096 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:00,686 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:00,686 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:00,686 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:00,686 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:19,105 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:19,105 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:19,107 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:19,107 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:30,689 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:30,689 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:30,689 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:30,689 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:49,116 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:49,116 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:07:49,117 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:07:49,117 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:00,692 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:00,692 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:00,692 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:00,692 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:19,125 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:19,125 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:19,126 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:19,126 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:30,706 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:30,706 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:30,706 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:30,706 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:49,129 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:49,129 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:08:49,130 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:08:49,130 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:00,714 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:00,714 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:00,715 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:00,715 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:19,134 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:19,134 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:19,135 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:19,135 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:30,722 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:30,722 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:30,723 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:30,723 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:49,136 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:49,136 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:09:49,137 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:09:49,137 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:00,733 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:00,733 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:00,733 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:00,733 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:19,148 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:19,148 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:19,148 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:19,148 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:30,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:30,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:30,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:30,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:49,164 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:49,165 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:10:49,164 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:10:49,165 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:00,749 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:00,749 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:00,749 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:00,749 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:19,174 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:19,174 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:19,174 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:19,174 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:30,763 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:30,763 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:30,764 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:30,764 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:49,181 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:49,181 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:11:49,182 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:11:49,182 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:00,771 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:00,771 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:00,772 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:00,772 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:19,194 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:19,194 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:19,194 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:19,194 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:30,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:30,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:30,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:30,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:49,201 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:49,201 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:12:49,202 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:12:49,202 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:00,793 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:00,793 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:00,793 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:00,793 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:19,213 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:19,213 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:19,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:19,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:30,795 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:30,795 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:30,796 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:30,796 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:49,223 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:49,223 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:13:49,224 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:13:49,224 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:00,811 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:00,811 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:00,812 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:00,812 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:19,231 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:19,231 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:19,231 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:19,231 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:30,828 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:30,828 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:30,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:30,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:49,235 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:49,235 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:14:49,236 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:14:49,236 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:00,846 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:00,846 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:00,847 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:00,847 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:19,239 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:19,239 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:19,240 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:19,240 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:30,851 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:30,851 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:30,852 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:30,852 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:49,242 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:49,242 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:15:49,243 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:15:49,243 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:16:00,852 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:00,852 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:00,854 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:16:00,854 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:16:19,243 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:19,243 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:19,245 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:16:19,245 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:16:30,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:30,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:30,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:16:30,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-04-03 00:16:47,444 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26dcd8c0, started on Tue Apr 02 22:22:56 CST 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6928f576
+2024-04-03 00:16:47,444 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26dcd8c0, started on Tue Apr 02 22:22:56 CST 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6928f576
+2024-04-03 00:16:47,444 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2024-04-03 00:16:47,444 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2024-04-03 00:16:47,444 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2024-04-03 00:16:47,444 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2024-04-03 00:16:47,448 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-04-03 00:16:47,448 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2024-04-03 00:16:47,448 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-04-03 00:16:47,448 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2024-04-03 00:16:47,462 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2024-04-03 00:16:47,462 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2024-04-03 00:16:47,464 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2024-04-03 00:16:47,464 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2024-04-03 00:16:47,464 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2024-04-03 00:16:47,464 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2024-04-03 00:16:47,464 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-03 00:16:47,464 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-03 00:16:47,466 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-04-03 00:16:47,466 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-04-03 00:16:47,469 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:47,469 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:47,469 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74c2706b: (connection evicted)
+2024-04-03 00:16:47,469 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74c2706b: (connection evicted)
+2024-04-03 00:16:47,469 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@35ff7a50: (connection evicted)
+2024-04-03 00:16:47,469 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@35ff7a50: (connection evicted)
+2024-04-03 00:16:47,471 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@480cfca: (connection evicted)
+2024-04-03 00:16:47,471 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@480cfca: (connection evicted)
+2024-04-03 00:16:47,471 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55d0851f: (connection evicted)
+2024-04-03 00:16:47,471 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55d0851f: (connection evicted)
+2024-04-03 00:16:47,471 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10bdd31: (connection evicted)
+2024-04-03 00:16:47,471 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10bdd31: (connection evicted)
+2024-04-03 00:16:47,472 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@519e3c6e: (connection evicted)
+2024-04-03 00:16:47,472 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@519e3c6e: (connection evicted)
+2024-04-03 00:16:47,472 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@308ae729: (connection evicted)
+2024-04-03 00:16:47,472 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@308ae729: (connection evicted)
+2024-04-03 00:16:47,473 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d15d740: (connection evicted)
+2024-04-03 00:16:47,473 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d15d740: (connection evicted)
+2024-04-03 00:16:47,473 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f4e8e59: (connection evicted)
+2024-04-03 00:16:47,473 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f4e8e59: (connection evicted)
+2024-04-03 00:16:47,473 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56deb66d: (connection evicted)
+2024-04-03 00:16:47,473 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56deb66d: (connection evicted)
+2024-04-03 00:16:47,473 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-04-03 00:16:47,473 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-04-03 00:16:47,473 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-04-03 00:16:47,473 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-04-03 00:16:49,096 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-04-03 00:16:49,096 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-04-03 00:16:49,098 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-03 00:16:49,098 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-03 00:16:49,098 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-04-03 00:16:49,098 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-04-03 00:16:49,098 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:49,098 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-04-03 00:16:49,100 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a8a78d4: (connection evicted)
+2024-04-03 00:16:49,100 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a8a78d4: (connection evicted)
+2024-04-03 00:16:49,101 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bb772ef: (connection evicted)
+2024-04-03 00:16:49,101 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bb772ef: (connection evicted)
+2024-04-03 00:16:49,101 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a76392a: (connection evicted)
+2024-04-03 00:16:49,101 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a76392a: (connection evicted)
+2024-04-03 00:16:49,102 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b988da0: (connection evicted)
+2024-04-03 00:16:49,102 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b988da0: (connection evicted)
+2024-04-03 00:16:49,102 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e7b0c42: (connection evicted)
+2024-04-03 00:16:49,102 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e7b0c42: (connection evicted)
+2024-04-03 00:16:49,103 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fd69289: (connection evicted)
+2024-04-03 00:16:49,103 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fd69289: (connection evicted)
+2024-04-03 00:16:49,103 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@42a84883: (connection evicted)
+2024-04-03 00:16:49,103 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@42a84883: (connection evicted)
+2024-04-03 00:16:49,104 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e0f07d8: (connection evicted)
+2024-04-03 00:16:49,104 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e0f07d8: (connection evicted)
+2024-04-03 00:16:49,104 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40802411: (connection evicted)
+2024-04-03 00:16:49,104 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40802411: (connection evicted)
+2024-04-03 00:16:49,104 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57291cc7: (connection evicted)
+2024-04-03 00:16:49,104 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57291cc7: (connection evicted)
+2024-04-03 00:16:49,105 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-04-03 00:16:49,105 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-04-03 00:16:49,105 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-04-03 00:16:49,105 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
