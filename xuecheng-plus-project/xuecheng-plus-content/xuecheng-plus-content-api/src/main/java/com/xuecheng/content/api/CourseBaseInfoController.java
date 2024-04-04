@@ -20,10 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
- * @description TODO
- * @date 2023/2/11 15:44
  */
 @Api(value = "课程信息管理接口",tags = "课程信息管理接口")
 @RestController

@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
  * 课程发布
  * </p>
  *
- * @author itcast
+ * @author lxh11111
  */
 @Data
 @TableName("course_publish_pre")

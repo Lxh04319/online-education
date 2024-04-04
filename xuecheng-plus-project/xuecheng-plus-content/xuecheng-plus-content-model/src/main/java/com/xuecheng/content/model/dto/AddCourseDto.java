@@ -10,9 +10,7 @@ import java.math.BigDecimal;
 
 /**
  * @description 添加课程dto
- * @author Mr.M
- * @date 2022/9/7 17:40
- * @version 1.0
+ * @author lxh11111
  */
 @Data
 @ApiModel(value="AddCourseDto", description="新增课程基本信息")

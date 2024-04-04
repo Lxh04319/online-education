@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 课程分类
  * </p>
  *
- * @author itcast
+ * @author lxh11111
  */
 @Data
 @TableName("course_category")
