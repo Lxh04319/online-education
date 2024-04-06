@@ -6,8 +6,10 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author lxh11111
+ * @author Mr.M
  * @version 1.0
+ * @description TODO
+ * @date 2023/2/12 11:51
  */
 @Data
 public class CourseCategoryTreeDto extends CourseCategory implements java.io.Serializable {

@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
  * 课程基本信息
  * </p>
  *
- * @author lxh11111
+ * @author itcast
  */
 @Data
 @TableName("course_base")

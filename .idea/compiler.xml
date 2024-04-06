@@ -15,18 +15,20 @@
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../develop/apache-maven-3.9.6/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
+        <module name="xuecheng-plus-content-model (1)" />
         <module name="xuecheng-plus-system-service" />
+        <module name="xuecheng-plus-content-model (2)" />
         <module name="xuecheng-plus-system-model" />
         <module name="xuecheng-plus-system-api" />
         <module name="xuecheng-plus-content-service" />
         <module name="xuecheng-plus-content-api" />
-        <module name="xuecheng-plus-content-model" />
         <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="online-education" target="17" />
+      <module name="xuecheng-plus-content-model" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

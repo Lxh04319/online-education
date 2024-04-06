@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-system/pom.xml" />
         <option value="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/pom.xml" />
         <option value="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content-model/pom.xml" />
       </list>
     </option>
   </component>

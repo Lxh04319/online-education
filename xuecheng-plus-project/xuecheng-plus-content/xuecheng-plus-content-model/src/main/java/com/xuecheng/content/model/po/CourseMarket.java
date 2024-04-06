@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 课程营销信息
  * </p>
  *
- * @author lxh11111
+ * @author itcast
  */
 @Data
 @TableName("course_market")
