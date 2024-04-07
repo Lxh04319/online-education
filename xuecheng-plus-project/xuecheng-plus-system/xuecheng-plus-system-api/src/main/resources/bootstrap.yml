@@ -6,6 +6,14 @@ server:
 spring:
   application:
     name: system-service
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: xuecheng-plus-project
+  profiles:
+    active: dev
 
 # 日志文件配置路径
 logging:
