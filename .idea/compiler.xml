@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-content" enabled="true">
+      <profile name="Annotation profile for xuecheng-plus-system" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -17,6 +17,7 @@
         </processorPath>
         <module name="xuecheng-plus-system-service" />
         <module name="xuecheng-plus-content-model (2)" />
+        <module name="xuecheng-plus-gateway" />
         <module name="xuecheng-plus-system-model" />
         <module name="xuecheng-plus-system-api" />
         <module name="xuecheng-plus-content-service" />
