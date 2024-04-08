@@ -1,13 +1,13 @@
 package com.xuecheng;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class XuechengPlusGatewayApplicationTests {
+public class XuechengPlusGatewayApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
 }

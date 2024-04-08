@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content.iml" filepath="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content-api/xuecheng-plus-content-api.iml" filepath="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content-api/xuecheng-plus-content-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content-service/xuecheng-plus-content-service.iml" filepath="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-content/xuecheng-plus-content-service/xuecheng-plus-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-gateway/xuecheng-plus-gateway.iml" filepath="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-gateway/xuecheng-plus-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-generator/xuecheng-plus-generator.iml" filepath="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-generator/xuecheng-plus-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-parent/xuecheng-plus-parent.iml" filepath="$PROJECT_DIR$/xuecheng-plus-project/xuecheng-plus-parent/xuecheng-plus-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xuecheng-plus-project.iml" filepath="$PROJECT_DIR$/.idea/xuecheng-plus-project.iml" />
