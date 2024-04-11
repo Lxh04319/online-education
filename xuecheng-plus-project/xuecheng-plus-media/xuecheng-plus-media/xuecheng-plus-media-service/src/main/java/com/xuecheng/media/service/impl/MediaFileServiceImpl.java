@@ -9,10 +9,12 @@ import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.base.model.RestResponse;
 import com.xuecheng.media.mapper.MediaFilesMapper;
+import com.xuecheng.media.mapper.MediaProcessMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
+import com.xuecheng.media.model.po.MediaProcess;
 import com.xuecheng.media.service.MediaFileService;
 import io.minio.*;
 import io.minio.messages.DeleteError;
@@ -55,6 +57,9 @@ public class MediaFileServiceImpl implements MediaFileService {
 
  @Autowired
  MediaFileService currentProxy;
+
+ @Autowired
+ MediaProcessMapper mediaProcessMapper;
 
  @Value("${minio.bucket.files}")
  private String bucket_mediafiles;
@@ -177,8 +182,7 @@ public class MediaFileServiceImpl implements MediaFileService {
   * @param bucket              桶
   * @param objectName          对象名称
   * @return com.xuecheng.media.model.po.MediaFiles
-  * @description 将文件信息添加到文件表
-  * @author Mr.M
+  * @description 将文件信息添加到文件
   */
  @Transactional
  public MediaFiles addMediaFilesToDb(Long companyId, String fileMd5, UploadFileParamsDto uploadFileParamsDto, String bucket, String objectName) {
@@ -211,11 +215,37 @@ public class MediaFileServiceImpl implements MediaFileService {
     log.debug("向数据库保存文件失败,bucket:{},objectName:{}", bucket, objectName);
     return null;
    }
+   //记录待处理任务
+   addWaitingTask(mediaFiles);
    return mediaFiles;
 
   }
   return mediaFiles;
 
+ }
+
+ /**
+  * 添加待处理任务
+  * @param mediaFiles 媒资文件信息
+  */
+ private void addWaitingTask(MediaFiles mediaFiles){
+  //文件名
+  String filename=mediaFiles.getFilename();
+  //文件扩展名
+  String extension=filename.substring(filename.lastIndexOf("."));
+  //mimetype
+  String mimeType=getMimeType(extension);
+  if(mimeType.equals("video/x-msvideo")){
+   //avi
+   MediaProcess mediaProcess=new MediaProcess();
+   BeanUtils.copyProperties(mediaFiles,mediaProcess);
+   //未处理
+   mediaProcess.setStatus("1");
+   mediaProcess.setCreateDate(LocalDateTime.now());
+   mediaProcess.setFailCount(0);
+   mediaProcess.setUrl(null);
+   mediaProcessMapper.insert(mediaProcess);
+  }
  }
 
  @Override
