@@ -44,6 +44,34 @@ public class MediaFileProcessServiceImpl implements MediaFileProcessService {
 
     @Override
     public void saveProcessFinishStatus(Long taskId, String status, String fileId, String url, String errorMsg) {
-
+        //更新任务
+        MediaProcess mediaProcess=mediaProcessMapper.selectById(taskId);
+        if(mediaProcess!=null){
+            return ;
+        }
+        //任务失败
+        if(status.equals("3")){
+            //更新表
+            mediaProcess.setStatus("3");
+            mediaProcess.setFailCount(mediaProcess.getFailCount()+1);
+            mediaProcess.setErrormsg(errorMsg);
+            mediaProcessMapper.updateById(mediaProcess);
+            return ;
+        }
+        //任务成功
+        MediaFiles mediaFiles=mediaFilesMapper.selectById(fileId);
+        mediaFiles.setUrl(url);
+        mediaFilesMapper.updateById(mediaFiles);
+        //更新状态
+        mediaProcess.setStatus("2");
+        mediaProcess.setFinishDate(LocalDateTime.now());
+        mediaProcess.setUrl(url);
+        mediaProcessMapper.updateById(mediaProcess);
+        //插入历史记录
+        MediaProcessHistory mediaProcessHistory=new MediaProcessHistory();
+        BeanUtils.copyProperties(mediaProcess,mediaProcessHistory);
+        mediaProcessHistoryMapper.insert(mediaProcessHistory);
+        //删除任务
+        mediaProcessMapper.deleteById(taskId);
     }
 }

@@ -2,6 +2,7 @@ package com.xuecheng.media.service;
 
 import com.xuecheng.media.model.po.MediaProcess;
 
+import java.io.File;
 import java.util.List;
 
 /**
@@ -42,5 +43,11 @@ public interface MediaFileProcessService {
      */
     void saveProcessFinishStatus(Long taskId,String status,String fileId,String url,String errorMsg);
 
-
+    /**
+     * 从minio下载文件
+     * @param bucket 桶
+     * @param objectName 对象名称
+     * @return 下载后的文件
+     */
+    public File downloadFileFromMinIO(String bucket, String objectName);
 }

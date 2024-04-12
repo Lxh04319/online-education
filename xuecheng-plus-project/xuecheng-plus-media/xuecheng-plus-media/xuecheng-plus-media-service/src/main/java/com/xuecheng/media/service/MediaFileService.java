@@ -88,4 +88,14 @@ public interface MediaFileService {
   * @return 下载后的文件
   */
  public File downloadFileFromMinIO(String bucket, String objectName);
+
+ /**
+  * 将文件上传到minio
+  * @param localFilePath 文件本地路径
+  * @param mimeType 媒体类型
+  * @param bucket 桶
+  * @param objectName 对象名
+  * @return
+  */
+ public boolean addMediaFilesToMinIO(String localFilePath,String mimeType,String bucket, String objectName);
 }
