@@ -29,6 +29,9 @@ public interface MediaFileService {
  */
  public PageResult<MediaFiles> queryMediaFiels(Long companyId,PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
 
+ //根据媒资id查询文件信息
+ MediaFiles getFileById(String mediaId);
+
  /**
   * 上传文件
   * @param companyId 机构id
