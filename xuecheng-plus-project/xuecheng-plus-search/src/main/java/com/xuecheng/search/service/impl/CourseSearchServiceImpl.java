@@ -61,7 +61,7 @@ public class CourseSearchServiceImpl implements CourseSearchService {
 
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
         BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
-        //source源字段过虑
+        //source源字段过滤
         String[] sourceFieldsArray = sourceFields.split(",");
         searchSourceBuilder.fetchSource(sourceFieldsArray, new String[]{});
         if(courseSearchParam==null){
@@ -77,7 +77,7 @@ public class CourseSearchServiceImpl implements CourseSearchService {
             multiMatchQueryBuilder.field("name",10);
             boolQueryBuilder.must(multiMatchQueryBuilder);
         }
-        //过虑
+        //过滤
         if(StringUtils.isNotEmpty(courseSearchParam.getMt())){
             boolQueryBuilder.filter(QueryBuilders.termQuery("mtName",courseSearchParam.getMt()));
         }

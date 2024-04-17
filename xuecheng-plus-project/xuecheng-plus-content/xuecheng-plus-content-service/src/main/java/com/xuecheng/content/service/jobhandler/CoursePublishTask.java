@@ -1,6 +1,10 @@
 package com.xuecheng.content.service.jobhandler;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.xuecheng.base.exception.XueChengPlusException;
+import com.xuecheng.content.feignclient.CourseIndex;
+import com.xuecheng.content.feignclient.SearchServiceClient;
+import com.xuecheng.content.mapper.CoursePublishMapper;
 import com.xuecheng.content.model.po.CoursePublish;
 import com.xuecheng.content.service.CoursePublishService;
 import com.xuecheng.messagesdk.model.po.MqMessage;
@@ -10,6 +14,7 @@ import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -27,6 +32,11 @@ public class CoursePublishTask extends MessageProcessAbstract {
     @Autowired
     CoursePublishService coursePublishService;
 
+    @Autowired
+    SearchServiceClient searchServiceClient;
+
+    @Autowired
+    CoursePublishMapper coursePublishMapper;
     //任务调度入口
     @XxlJob("CoursePublishJobHandler")
     public void coursePublishJobHandler() throws Exception {
@@ -80,6 +90,15 @@ public class CoursePublishTask extends MessageProcessAbstract {
             return;
         }
         //添加索引
+        CoursePublish coursePublish=coursePublishMapper.selectById(courseId);
+        CourseIndex courseIndex=new CourseIndex();
+        BeanUtils.copyProperties(coursePublish,courseIndex);
+        //远程feign
+        Boolean add =searchServiceClient.add(courseIndex);
+        if(!add){
+            XueChengPlusException.cast("失败");
+        }
+
         //完成
         mqMessageService.completedStageTwo(taskId);
     }
