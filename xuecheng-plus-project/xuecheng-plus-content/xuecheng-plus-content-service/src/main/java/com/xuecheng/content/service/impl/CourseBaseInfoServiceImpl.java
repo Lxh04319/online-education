@@ -13,6 +13,7 @@ import com.xuecheng.content.model.dto.CourseBaseInfoDto;
 import com.xuecheng.content.model.dto.EditCourseDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
+import com.xuecheng.content.model.po.CourseCategory;
 import com.xuecheng.content.model.po.CourseMarket;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import lombok.extern.slf4j.Slf4j;
@@ -154,7 +155,12 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         }
 
         //通过courseCategoryMapper查询分类信息，将分类名称放在courseBaseInfoDto对象
-        //todo：课程分类的名称设置到courseBaseInfoDto
+        CourseCategory mtObj = courseCategoryMapper.selectById(courseBase.getMt());
+        String mtName = mtObj.getName();//大分类名称
+        courseBaseInfoDto.setMtName(mtName);
+        CourseCategory stObj = courseCategoryMapper.selectById(courseBase.getSt());
+        String stName = stObj.getName();//小分类名称
+        courseBaseInfoDto.setStName(stName);
 
         return courseBaseInfoDto;
 
