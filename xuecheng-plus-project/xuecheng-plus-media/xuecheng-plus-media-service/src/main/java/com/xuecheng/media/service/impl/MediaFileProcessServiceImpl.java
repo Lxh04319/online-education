@@ -12,6 +12,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.File;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -73,5 +74,10 @@ public class MediaFileProcessServiceImpl implements MediaFileProcessService {
         mediaProcessHistoryMapper.insert(mediaProcessHistory);
         //删除任务
         mediaProcessMapper.deleteById(taskId);
+    }
+
+    @Override
+    public File downloadFileFromMinIO(String bucket, String objectName) {
+        return null;
     }
 }

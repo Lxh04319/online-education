@@ -60,7 +60,7 @@ public class MediaFilesController {
         String localFilePath = tempFile.getAbsolutePath();
 
         //调用service上传图片
-        UploadFileResultDto uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, localFilePath);
+        UploadFileResultDto uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, localFilePath,objectName);
 
         return uploadFileResultDto;
     }

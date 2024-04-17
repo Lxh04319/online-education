@@ -1,12 +1,19 @@
 package com.xuecheng.content.service.jobhandler;
 
+import com.xuecheng.base.exception.XueChengPlusException;
+import com.xuecheng.content.model.po.CoursePublish;
+import com.xuecheng.content.service.CoursePublishService;
 import com.xuecheng.messagesdk.model.po.MqMessage;
 import com.xuecheng.messagesdk.service.MessageProcessAbstract;
 import com.xuecheng.messagesdk.service.MqMessageService;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import java.io.File;
 
 /**
  * @author Mr.M
@@ -16,6 +23,9 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Component
 public class CoursePublishTask extends MessageProcessAbstract {
+
+    @Autowired
+    CoursePublishService coursePublishService;
 
     //任务调度入口
     @XxlJob("CoursePublishJobHandler")
@@ -51,7 +61,12 @@ public class CoursePublishTask extends MessageProcessAbstract {
             return;
         }
         //静态化
-
+        File file = coursePublishService.generateCourseHtml(courseId);
+        if(file == null){
+            XueChengPlusException.cast("生成的静态页面为空");
+        }
+        // 将html上传到minio
+        coursePublishService.uploadCourseHtml(courseId,file);
         //完成
         mqMessageService.completedStageOne(taskId);
     }

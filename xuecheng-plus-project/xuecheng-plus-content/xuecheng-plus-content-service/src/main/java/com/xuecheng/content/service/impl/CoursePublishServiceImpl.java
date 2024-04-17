@@ -3,6 +3,8 @@ package com.xuecheng.content.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.xuecheng.base.exception.CommonError;
 import com.xuecheng.base.exception.XueChengPlusException;
+import com.xuecheng.content.config.MultipartSupportConfig;
+import com.xuecheng.content.feignclient.MediaServiceClient;
 import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
 import com.xuecheng.content.mapper.CoursePublishMapper;
@@ -19,14 +21,23 @@ import com.xuecheng.content.service.CoursePublishService;
 import com.xuecheng.content.service.TeachplanService;
 import com.xuecheng.messagesdk.model.po.MqMessage;
 import com.xuecheng.messagesdk.service.MqMessageService;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.time.LocalDateTime;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -59,6 +70,9 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
     @Autowired
     MqMessageService mqMessageService;
+
+    @Autowired
+    MediaServiceClient mediaServiceClient;
 
     @Override
     public CoursePreviewDto getCoursePreviewInfo(Long courseId) {
@@ -151,6 +165,62 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         MqMessage mqMessage=mqMessageService.addMessage("course_publish",String.valueOf(courseId),null,null);
         if(mqMessage==null){
             XueChengPlusException.cast(CommonError.UNKOWN_ERROR);
+        }
+    }
+
+    //生成静态文件
+    @Override
+    public File generateCourseHtml(Long courseId) {
+
+        Configuration configuration = new Configuration(Configuration.getVersion());
+        //最终的静态文件
+        File htmlFile = null;
+        try {
+            //拿到classpath路径
+            String classpath = this.getClass().getResource("/").getPath();
+            //指定模板的目录
+            configuration.setDirectoryForTemplateLoading(new File(classpath+"/templates/"));
+            //指定编码
+            configuration.setDefaultEncoding("utf-8");
+
+            //得到模板
+            Template template = configuration.getTemplate("course_template.ftl");
+            //准备数据
+            CoursePreviewDto coursePreviewInfo = this.getCoursePreviewInfo(courseId);
+            HashMap<String, Object> map = new HashMap<>();
+            map.put("model",coursePreviewInfo);
+
+            //Template template 模板, Object model 数据
+            String html = FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
+            //输入流
+            InputStream inputStream = IOUtils.toInputStream(html, "utf-8");
+            htmlFile = File.createTempFile("coursepublish",".html");
+            //输出文件
+            FileOutputStream outputStream = new FileOutputStream(htmlFile);
+            //使用流将html写入文件
+            IOUtils.copy(inputStream,outputStream);
+        }catch (Exception ex){
+            log.error("页面静态化出现问题,课程id:{}",courseId,ex);
+            ex.printStackTrace();
+        }
+        return htmlFile;
+    }
+
+    //html上传至minio
+    @Override
+    public void uploadCourseHtml(Long courseId, File file) {
+        try {
+            //将file转成MultipartFile
+            MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
+            //远程调用得到返回值
+            String upload = mediaServiceClient.upload(multipartFile, "course/"+courseId+".html");
+            if(upload==null){
+                log.debug("远程调用走降级逻辑得到上传的结果为null,课程id:{}",courseId);
+                XueChengPlusException.cast("上传静态文件过程中存在异常");
+            }
+        }catch (Exception ex){
+            ex.printStackTrace();
+            XueChengPlusException.cast("上传静态文件过程中存在异常");
         }
     }
 }
