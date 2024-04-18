@@ -47,6 +47,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //        return new BCryptPasswordEncoder();
     }
 
+    //扫描重写方法
+    @Autowired
+    DaoAuthenticationProviderCustom daoAuthenticationProviderCustom;
+
     //配置安全拦截机制
     @Override
     protected void configure(HttpSecurity http) throws Exception {
