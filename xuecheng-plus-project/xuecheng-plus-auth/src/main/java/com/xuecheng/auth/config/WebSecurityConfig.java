@@ -32,13 +32,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     //配置用户信息服务
-    @Bean
-    public UserDetailsService userDetailsService() {
-        //暂时配置用户
-        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-        manager.createUser(User.withUsername("lxh").password("123").authorities("p1").build());
-        return manager;
-    }
+//    @Bean
+//    public UserDetailsService userDetailsService() {
+//        //暂时配置用户
+//        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
+//        manager.createUser(User.withUsername("lxh").password("123").authorities("p1").build());
+//        return manager;
+//    }
 
     @Bean
     public PasswordEncoder passwordEncoder() {
