@@ -50,17 +50,13 @@ public class WxAuthServiceImpl implements AuthService, WxAuthService {
 
     @Override
     public XcUserExt execute(AuthParamsDto authParamsDto) {
-
+        return null;
     }
 
-    @Override
-    public XcUser wxAuth(String code) {
-
-    }
 
     @Transactional
     public XcUser addWxUser(Map<String,String> userInfo_map){
-
+        return null;
     }
 
     /**
@@ -79,7 +75,7 @@ public class WxAuthServiceImpl implements AuthService, WxAuthService {
      * @return
      */
     private Map<String,String> getAccess_token(String code){
-
+        return null;
     }
 
     /**
@@ -107,6 +103,6 @@ public class WxAuthServiceImpl implements AuthService, WxAuthService {
      * @return
      */
     private Map<String,String> getUserinfo(String access_token,String openid){
-
+        return null;
     }
 }
