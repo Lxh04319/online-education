@@ -1,4 +1,4 @@
-package com.xuecheng.ucenter.service.impl;
+package com.xuecheng.ucenter.service;
 
 import com.xuecheng.ucenter.model.po.XcUser;
 
