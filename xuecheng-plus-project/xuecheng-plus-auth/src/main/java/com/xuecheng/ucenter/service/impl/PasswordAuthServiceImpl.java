@@ -28,6 +28,8 @@ public class PasswordAuthServiceImpl implements AuthService {
  @Autowired
  PasswordEncoder passwordEncoder;
 
+ @Autowired
+ CheckCodeClient checkCodeClient;
 
  @Override
  public XcUserExt execute(AuthParamsDto authParamsDto) {
@@ -41,6 +43,10 @@ public class PasswordAuthServiceImpl implements AuthService {
    throw new RuntimeException("请输入验证码");
   }
   //验证码服务
+  Boolean verify=checkCodeClient.verify(checkcodekey,checkcode);
+  if(verify==null||!verify){
+   throw new RuntimeException("验证码错误");
+  }
   //查询数据库
   XcUser xcUser=xcUserMapper.selectOne(new LambdaQueryWrapper<XcUser>().eq(XcUser::getUsername,username));
   //不存在
