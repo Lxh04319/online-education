@@ -17,12 +17,14 @@
         </processorPath>
         <module name="xuecheng-plus-message-sdk" />
         <module name="xuecheng-plus-checkcode" />
+        <module name="xuecheng-plus-learning-model" />
         <module name="xuecheng-plus-content-service" />
         <module name="xuecheng-plus-search" />
         <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-base" />
         <module name="xuecheng-plus-media-service (1)" />
         <module name="xuecheng-plus-media-model (1)" />
+        <module name="xuecheng-plus-learning-api" />
         <module name="xuecheng-plus-system-service" />
         <module name="xuecheng-plus-content-model (2)" />
         <module name="xuecheng-plus-gateway" />
@@ -31,6 +33,7 @@
         <module name="xuecheng-plus-system-api" />
         <module name="xuecheng-plus-auth" />
         <module name="xuecheng-plus-content-api" />
+        <module name="xuecheng-plus-learning-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">

@@ -197,7 +197,9 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
             XueChengPlusException.cast("修改课程失败");
         }
         //更新营销信息
-        //todo:更新营销信息
+        CourseMarket courseMarket = new CourseMarket();
+        BeanUtils.copyProperties(editCourseDto,courseMarket);
+        saveCourseMarket(courseMarket);
         //查询课程信息
         CourseBaseInfoDto courseBaseInfo = getCourseBaseInfo(courseId);
 
