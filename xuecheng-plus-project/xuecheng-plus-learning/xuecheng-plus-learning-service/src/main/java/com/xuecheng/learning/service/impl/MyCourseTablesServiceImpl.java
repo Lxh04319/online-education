@@ -85,6 +85,10 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
             BeanUtils.copyProperties(xcCourseTables,courseTablesDto);
             courseTablesDto.setLearnStatus("702003");
             return courseTablesDto;
+        }else{
+            BeanUtils.copyProperties(xcCourseTables,courseTablesDto);
+            courseTablesDto.setLearnStatus("702001");
+            return courseTablesDto;
         }
     }
 
