@@ -11,6 +11,7 @@ import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
@@ -37,11 +38,15 @@ public class CourseBaseInfoController {
     @PreAuthorize("hasAuthority('xc_teachmanager_course_list')")//权限
     @PostMapping("/course/list")
     public PageResult<CourseBase> list(PageParams pageParams, @RequestBody(required=false) QueryCourseParamsDto queryCourseParamsDto) {
-
-        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto);
-
+        //当前用户
+        SecurityUtil.XcUser user=SecurityUtil.getUser();
+        //机构id--细粒度
+        Long companyId=null;
+        if(StringUtils.isNotEmpty(user.getCompanyId())){
+            companyId=Long.parseLong(user.getCompanyId());
+        }
+        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(companyId,pageParams, queryCourseParamsDto);
         return courseBasePageResult;
-
     }
     @ApiOperation("新增课程")
     @PostMapping("/course")

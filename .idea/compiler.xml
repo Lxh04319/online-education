@@ -16,6 +16,7 @@
           <entry name="$PROJECT_DIR$/../../develop/apache-maven-3.9.6/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="xuecheng-plus-message-sdk" />
+        <module name="xuecheng-plus-checkcode" />
         <module name="xuecheng-plus-content-service" />
         <module name="xuecheng-plus-search" />
         <module name="xuecheng-plus-generator" />
@@ -34,7 +35,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="online-education" target="17" />
-      <module name="xuecheng-plus-checkcode" target="1.8" />
       <module name="xuecheng-plus-content-model" target="1.8" />
       <module name="xuecheng-plus-content-model (1)" target="1.8" />
       <module name="xuecheng-plus-media-api" target="1.8" />
