@@ -56,20 +56,46 @@ public class OrderController {
     @PostMapping("/generatepaycode")
     @ResponseBody
     public PayRecordDto generatePayCode(@RequestBody AddOrderDto addOrderDto) {
-
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        String userId = user.getId();
+        //插入订单信息、插入支付记录、生成支付二维码
+        PayRecordDto payRecordDto = orderService.createOrder(userId, addOrderDto);
+        return payRecordDto;
     }
 
     @ApiOperation("扫码下单接口")
     @GetMapping("/requestpay")
     public void requestpay(String payNo, HttpServletResponse httpResponse) throws IOException, AlipayApiException {
-
+        XcPayRecord payRecord=orderService.getPayRecordByPayno(payNo);
+        if(payRecord==null){
+            XueChengPlusException.cast("支付记录不存在");
+        }
+        //支付结果
+        String status=payRecord.getStatus();
+        if(status.equals("601002")){
+            XueChengPlusException.cast("已支付，无需重复支付");
+        }
+        AlipayClient alipayClient=new DefaultAlipayClient(AlipayConfig.URL, APP_ID, APP_PRIVATE_KEY, AlipayConfig.FORMAT, AlipayConfig.CHARSET, ALIPAY_PUBLIC_KEY,AlipayConfig.SIGNTYPE);
+        AlipayTradeWapPayRequest alipayRequest = new AlipayTradeWapPayRequest();//创建API对应的request
+        alipayRequest.setNotifyUrl("http://tjxt-user-t.net/xuecheng/orders/paynotify");
+        alipayRequest.setBizContent("{"+"" +
+                "    \"out_trade_no\":\""+payNo+"\"," +
+                "    \"total_amount\":"+payRecord.getTotalPrice()+"," +
+                "    \"subject\":\""+payRecord.getOrderName()+"\"," +
+                "    \"product_code\":\"QUICK_WAP_WAY\"" +
+                "  }");
+        String form = alipayClient.pageExecute(alipayRequest).getBody(); //调用SDK请求支付宝下单
+        httpResponse.setContentType("text/html;charset=" + AlipayConfig.CHARSET);
+        httpResponse.getWriter().write(form);//直接将完整的表单html输出到页面
+        httpResponse.getWriter().flush();
     }
 
     @ApiOperation("查询支付结果")
     @GetMapping("/payresult")
     @ResponseBody
     public PayRecordDto payresult(String payNo) throws IOException {
-
+        PayRecordDto payRecordDto = orderService.queryPayResult(payNo);
+        return payRecordDto;
     }
 
     //接收支付宝通知
