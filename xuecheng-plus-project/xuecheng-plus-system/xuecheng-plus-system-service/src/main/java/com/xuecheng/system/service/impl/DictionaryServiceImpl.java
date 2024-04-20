@@ -14,8 +14,6 @@ import java.util.List;
  * <p>
  * 数据字典 服务实现类
  * </p>
- *
- * @author itcast
  */
 @Slf4j
 @Service

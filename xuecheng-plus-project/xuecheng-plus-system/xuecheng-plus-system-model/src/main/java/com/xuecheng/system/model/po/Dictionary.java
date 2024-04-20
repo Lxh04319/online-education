@@ -11,8 +11,6 @@ import java.io.Serializable;
  * <p>
  * 数据字典
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("dictionary")
@@ -53,6 +51,4 @@ public class Dictionary implements Serializable {
                }]
      */
     private String itemValues;
-
-
 }
