@@ -10,8 +10,6 @@ import java.time.LocalDateTime;
  * <p>
  * 媒资信息
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("media_files")

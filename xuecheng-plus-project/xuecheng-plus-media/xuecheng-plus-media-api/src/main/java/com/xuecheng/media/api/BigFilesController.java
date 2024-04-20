@@ -14,10 +14,9 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 上传视频
- * @date 2023/2/18 10:34
  */
 
 @Api(value = "大文件上传接口", tags = "大文件上传接口")
@@ -27,7 +26,6 @@ public class BigFilesController {
     @Autowired
     MediaFileService mediaFileService;
 
-
     @ApiOperation(value = "文件上传前检查文件")
     @PostMapping("/upload/checkfile")
     public RestResponse<Boolean> checkfile(
@@ -36,7 +34,6 @@ public class BigFilesController {
         RestResponse<Boolean> booleanRestResponse = mediaFileService.checkFile(fileMd5);
         return booleanRestResponse;
     }
-
 
     @ApiOperation(value = "分块文件上传前的检测")
     @PostMapping("/upload/checkchunk")
@@ -51,7 +48,6 @@ public class BigFilesController {
     public RestResponse uploadchunk(@RequestParam("file") MultipartFile file,
                                     @RequestParam("fileMd5") String fileMd5,
                                     @RequestParam("chunk") int chunk) throws Exception {
-
         //创建一个临时文件
         File tempFile = File.createTempFile("minio", ".temp");
         file.transferTo(tempFile);
@@ -76,8 +72,5 @@ public class BigFilesController {
         uploadFileParamsDto.setFileType("001002");
         RestResponse restResponse = mediaFileService.mergechunks(1232141425L, fileMd5, chunkTotal, uploadFileParamsDto);
         return restResponse;
-
     }
-
-
 }

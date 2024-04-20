@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.ToString;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 文件信息
  */
@@ -17,7 +17,6 @@ public class UploadFileParamsDto {
      */
     private String filename;
 
-
     /**
      * 文件类型（文档，音频，视频）
      */
@@ -26,7 +25,6 @@ public class UploadFileParamsDto {
      * 文件大小
      */
     private Long fileSize;
-
     /**
      * 标签
      */
@@ -39,5 +37,4 @@ public class UploadFileParamsDto {
      * 备注
      */
     private String remark;
-
 }

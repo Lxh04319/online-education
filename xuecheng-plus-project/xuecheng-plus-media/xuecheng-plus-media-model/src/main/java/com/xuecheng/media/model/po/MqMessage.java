@@ -10,8 +10,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("mq_message")
@@ -93,6 +91,4 @@ public class MqMessage implements Serializable {
      * 最近通知时间
      */
     private LocalDateTime informDate;
-
-
 }

@@ -29,9 +29,7 @@ public class SampleXxlJob {
     public void demoJobHandler() throws Exception {
         System.out.println("处理视频.......");
 
-
     }
-
 
     @XxlJob("demoJobHandler2")
     public void demoJobHandler2() throws Exception {

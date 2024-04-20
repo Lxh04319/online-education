@@ -11,8 +11,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @ToString
@@ -71,8 +69,5 @@ public class MediaProcess implements Serializable {
      * 失败次数
      */
     private int failCount;
-
-
-
 
 }

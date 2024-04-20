@@ -7,8 +7,6 @@ import com.xuecheng.media.model.po.MqMessage;
  * <p>
  *  Mapper 接口
  * </p>
- *
- * @author itcast
  */
 public interface MqMessageMapper extends BaseMapper<MqMessage> {
 

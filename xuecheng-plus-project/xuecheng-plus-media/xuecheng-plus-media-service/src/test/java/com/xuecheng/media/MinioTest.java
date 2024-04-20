@@ -14,7 +14,7 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 测试minio的sdk
  */
@@ -48,9 +48,6 @@ public class MinioTest {
 
         //上传文件
         minioClient.uploadObject(uploadObjectArgs);
-
-
-
     }
     //删除文件
     @Test
@@ -61,9 +58,6 @@ public class MinioTest {
 
         //删除文件
         minioClient.removeObject(removeObjectArgs);
-
-
-
     }
 
     //查询文件 从minio中下载
@@ -85,15 +79,5 @@ public class MinioTest {
         if(source_md5.equals(local_md5)){
             System.out.println("下载成功");
         }
-
     }
-
-
-
-
-
-
-
-
-
 }

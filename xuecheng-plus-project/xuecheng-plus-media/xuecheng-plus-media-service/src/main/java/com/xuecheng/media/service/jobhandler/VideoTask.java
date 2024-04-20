@@ -132,7 +132,6 @@ public class VideoTask {
         countDownLatch.await(30, TimeUnit.MINUTES);
     }
 
-
     private String getFilePath(String fileMd5,String fileExt){
         return   fileMd5.substring(0,1) + "/" + fileMd5.substring(1,2) + "/" + fileMd5 + "/" +fileMd5 +fileExt;
     }

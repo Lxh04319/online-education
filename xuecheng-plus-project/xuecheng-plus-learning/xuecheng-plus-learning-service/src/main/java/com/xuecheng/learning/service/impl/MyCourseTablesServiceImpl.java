@@ -153,7 +153,6 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
      * @param userId
      * @param courseId
      * @return com.xuecheng.learning.model.po.XcCourseTables
-     * @author Mr.M
      */
     public XcCourseTables getXcCourseTables(String userId,Long courseId){
         XcCourseTables xcCourseTables = courseTablesMapper.selectOne(new LambdaQueryWrapper<XcCourseTables>().eq(XcCourseTables::getUserId, userId).eq(XcCourseTables::getCourseId, courseId));
