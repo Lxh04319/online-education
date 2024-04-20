@@ -8,8 +8,7 @@ import com.xuecheng.search.po.CourseIndex;
 
 /**
  * @description 课程搜索service
- * @author Mr.M
- * @date 2022/9/24 22:40
+ * @author lxh11111
  * @version 1.0
  */
 public interface CourseSearchService {

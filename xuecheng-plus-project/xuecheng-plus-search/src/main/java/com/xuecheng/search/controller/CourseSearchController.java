@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @description 课程搜索接口
- * @author Mr.M
- * @date 2022/9/24 22:31
+ * @author lxh11111
  * @version 1.0
  */
 @Api(value = "课程搜索接口",tags = "课程搜索接口")
@@ -25,12 +24,10 @@ public class CourseSearchController {
  @Autowired
  CourseSearchService courseSearchService;
 
-
  @ApiOperation("课程搜索列表")
   @GetMapping("/list")
  public SearchPageResultDto<CourseIndex> list(PageParams pageParams, SearchCourseParamDto searchCourseParamDto){
 
     return courseSearchService.queryCoursePubIndex(pageParams,searchCourseParamDto);
-   
   }
 }

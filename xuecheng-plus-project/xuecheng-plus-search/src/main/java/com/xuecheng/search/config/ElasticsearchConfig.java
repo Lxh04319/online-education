@@ -26,6 +26,4 @@ public class ElasticsearchConfig {
         //创建RestHighLevelClient客户端
         return new RestHighLevelClient(RestClient.builder(httpHostArray));
     }
-
-
 }

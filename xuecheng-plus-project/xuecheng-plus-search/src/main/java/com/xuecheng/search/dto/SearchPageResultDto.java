@@ -7,10 +7,9 @@ import lombok.ToString;
 import java.util.List;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
- * @date 2022/9/25 17:51
  */
 @Data
 @ToString
@@ -24,5 +23,4 @@ public class SearchPageResultDto<T> extends PageResult {
     public SearchPageResultDto(List<T> items, long counts, long page, long pageSize) {
         super(items, counts, page, pageSize);
     }
-
 }

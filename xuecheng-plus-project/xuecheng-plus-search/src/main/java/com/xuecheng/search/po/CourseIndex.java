@@ -11,8 +11,6 @@ import java.time.LocalDateTime;
  * <p>
  * 课程索引信息
  * </p>
- *
- * @author itcast
  */
 @Data
 public class CourseIndex implements Serializable {

@@ -3,10 +3,9 @@ package com.xuecheng.search.service;
 import com.xuecheng.search.po.CourseIndex;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 课程索引service
- * @date 2022/9/24 22:40
  */
 public interface IndexService {
 

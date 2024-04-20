@@ -5,8 +5,7 @@ import lombok.ToString;
 
 /**
  * @description 搜索课程参数dtl
- * @author Mr.M
- * @date 2022/9/24 22:36
+ * @author lxh11111
  * @version 1.0
  */
  @Data
@@ -23,8 +22,4 @@ public class SearchCourseParamDto {
   private String st;
   //难度等级
   private String grade;
-
-
-
-
 }

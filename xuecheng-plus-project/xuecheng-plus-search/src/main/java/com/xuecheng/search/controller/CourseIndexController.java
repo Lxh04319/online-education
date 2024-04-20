@@ -13,10 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 课程索引接口
- * @date 2022/9/24 22:31
  */
 @Api(value = "课程信息索引接口", tags = "课程信息索引接口")
 @RestController
@@ -42,6 +41,5 @@ public class CourseIndexController {
             XueChengPlusException.cast("添加课程索引失败");
         }
         return result;
-
     }
 }

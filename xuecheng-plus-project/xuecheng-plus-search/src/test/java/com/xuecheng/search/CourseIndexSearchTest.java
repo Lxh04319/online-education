@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
 
 /**
  * @description 课程索引与搜索测试
- * @author Mr.M
- * @date 2022/9/25 7:39
+ * @author lxh11111
  * @version 1.0
  */
  @SpringBootTest
