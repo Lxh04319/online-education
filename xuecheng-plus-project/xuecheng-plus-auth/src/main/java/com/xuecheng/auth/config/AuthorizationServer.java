@@ -15,8 +15,7 @@ import javax.annotation.Resource;
 
 /**
  * @description 授权服务器配置
- * @author Mr.M
- * @date 2022/9/26 22:25
+ * @author lxh11111
  * @version 1.0
  */
  @Configuration
@@ -65,7 +64,4 @@ import javax.annotation.Resource;
            .allowFormAuthenticationForClients()				//表单认证（申请令牌）
    ;
   }
-
-
-
  }

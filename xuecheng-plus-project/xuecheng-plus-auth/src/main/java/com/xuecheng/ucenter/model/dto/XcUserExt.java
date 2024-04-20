@@ -8,8 +8,7 @@ import java.util.List;
 
 /**
  * @description 用户扩展信息
- * @author Mr.M
- * @date 2022/9/30 13:56
+ * @author lxh11111
  * @version 1.0
  */
 @Data

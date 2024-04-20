@@ -11,7 +11,6 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
 /**
- * @author Administrator
  * @version 1.0
  **/
 @Configuration
@@ -42,7 +41,6 @@ public class TokenConfig {
         converter.setSigningKey(SIGNING_KEY);
         return converter;
     }
-
 
     //令牌管理服务
     @Bean(name="authorizationServerTokenServicesCustom")

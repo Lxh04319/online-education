@@ -16,10 +16,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 安全管理配置
- * @date 2022/9/26 20:53
  */
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(securedEnabled = true,prePostEnabled = true)
@@ -61,7 +60,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin().successForwardUrl("/login-success");//登录成功跳转到/login-success
     }
-
-
-
 }

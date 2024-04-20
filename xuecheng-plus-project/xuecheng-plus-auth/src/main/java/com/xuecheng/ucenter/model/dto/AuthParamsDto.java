@@ -6,10 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 认证用户请求参数
- * @date 2022/9/29 10:56
  */
 @Data
 public class AuthParamsDto {
@@ -21,6 +20,4 @@ public class AuthParamsDto {
     private String checkcodekey;//验证码key
     private String authType; // 认证的类型   password:用户名密码模式类型    sms:短信模式类型
     private Map<String, Object> payload = new HashMap<>();//附加数据，作为扩展，不同认证类型可拥有不同的附加数据。如认证类型为短信时包含smsKey : sms:3d21042d054548b08477142bbca95cfa; 所有情况下都包含clientId
-
-
 }

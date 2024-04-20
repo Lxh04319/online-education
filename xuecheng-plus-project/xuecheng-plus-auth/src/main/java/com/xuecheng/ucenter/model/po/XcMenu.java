@@ -10,8 +10,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("xc_menu")
@@ -63,6 +61,4 @@ public class XcMenu implements Serializable {
     private LocalDateTime createTime;
 
     private LocalDateTime updateTime;
-
-
 }

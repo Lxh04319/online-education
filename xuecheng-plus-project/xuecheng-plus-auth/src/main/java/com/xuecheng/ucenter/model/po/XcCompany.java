@@ -9,8 +9,6 @@ import java.io.Serializable;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("xc_company")
@@ -63,6 +61,4 @@ public class XcCompany implements Serializable {
      * 企业状态
      */
     private String status;
-
-
 }

@@ -3,10 +3,9 @@ package com.xuecheng.ucenter.service;
 import com.xuecheng.ucenter.model.po.XcUser;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 微信扫码接入
- * @date 2023/2/24 15:42
  */
 public interface WxAuthService {
 

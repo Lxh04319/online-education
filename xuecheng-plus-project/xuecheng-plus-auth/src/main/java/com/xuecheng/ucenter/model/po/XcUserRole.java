@@ -10,8 +10,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("xc_user_role")
@@ -28,6 +26,4 @@ public class XcUserRole implements Serializable {
     private LocalDateTime createTime;
 
     private String creator;
-
-
 }

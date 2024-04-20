@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 微信扫码认证
  */

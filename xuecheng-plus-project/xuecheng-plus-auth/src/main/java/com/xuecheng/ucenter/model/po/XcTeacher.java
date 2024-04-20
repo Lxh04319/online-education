@@ -9,8 +9,6 @@ import java.io.Serializable;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("xc_teacher")
@@ -44,6 +42,4 @@ public class XcTeacher implements Serializable {
      * 老师照片
      */
     private String pic;
-
-
 }
