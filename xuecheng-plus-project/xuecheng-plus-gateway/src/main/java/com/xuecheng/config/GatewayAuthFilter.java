@@ -26,10 +26,9 @@ import java.util.Properties;
 import java.util.Set;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 网关认证过虑器
- * @date 2022/9/27 12:10
  */
 @Component
 @Slf4j
@@ -53,8 +52,6 @@ public class GatewayAuthFilter implements GlobalFilter, Ordered {
             log.error("加载/security-whitelist.properties出错:{}",e.getMessage());
             e.printStackTrace();
         }
-
-
     }
 
     @Autowired
@@ -110,9 +107,6 @@ public class GatewayAuthFilter implements GlobalFilter, Ordered {
         return token;
     }
 
-
-
-
     private Mono<Void> buildReturnMono(String error, ServerWebExchange exchange) {
         ServerHttpResponse response = exchange.getResponse();
         String jsonString = JSON.toJSONString(new RestErrorResponse(error));
@@ -122,7 +116,6 @@ public class GatewayAuthFilter implements GlobalFilter, Ordered {
         response.getHeaders().add("Content-Type", "application/json;charset=UTF-8");
         return response.writeWith(Mono.just(buffer));
     }
-
 
     @Override
     public int getOrder() {
