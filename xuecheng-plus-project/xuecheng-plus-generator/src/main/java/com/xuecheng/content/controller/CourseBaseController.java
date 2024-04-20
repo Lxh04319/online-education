@@ -12,8 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
  * <p>
  * 课程基本信息 前端控制器
  * </p>
- *
- * @author itcast
  */
 @Slf4j
 @RestController

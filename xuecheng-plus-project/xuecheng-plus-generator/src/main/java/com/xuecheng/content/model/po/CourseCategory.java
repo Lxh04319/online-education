@@ -8,8 +8,6 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * <p>
  * 课程分类
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("course_category")
@@ -51,6 +49,4 @@ public class CourseCategory implements Serializable {
      * 是否叶子
      */
     private Integer isLeaf;
-
-
 }

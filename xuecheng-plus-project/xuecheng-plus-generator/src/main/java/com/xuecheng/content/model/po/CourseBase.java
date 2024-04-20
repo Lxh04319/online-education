@@ -13,8 +13,6 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * <p>
  * 课程基本信息
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("course_base")
@@ -114,6 +112,4 @@ public class CourseBase implements Serializable {
      * 课程发布状态 未发布  已发布 下线
      */
     private String status;
-
-
 }

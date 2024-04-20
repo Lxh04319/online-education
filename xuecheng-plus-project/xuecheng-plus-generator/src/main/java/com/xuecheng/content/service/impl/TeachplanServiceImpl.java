@@ -13,8 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
  * <p>
  * 课程计划 服务实现类
  * </p>
- *
- * @author itcast
  */
 @Slf4j
 @Service

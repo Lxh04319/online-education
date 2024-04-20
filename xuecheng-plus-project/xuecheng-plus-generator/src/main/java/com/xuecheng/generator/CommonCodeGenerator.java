@@ -97,7 +97,6 @@ public class CommonCodeGenerator {
 				new TableFill("modify_date", FieldFill.UPDATE)
 		));
 		mpg.setStrategy(strategy);
-
 		mpg.execute();
 	}
 

@@ -94,7 +94,6 @@ public class BankCodeGenerator {
 				new TableFill("modify_date", FieldFill.UPDATE)
 		));
 		mpg.setStrategy(strategy);
-
 		mpg.execute();
 	}
 

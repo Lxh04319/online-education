@@ -13,8 +13,6 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * <p>
  * 课程计划
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("teachplan")
@@ -101,6 +99,4 @@ public class Teachplan implements Serializable {
      */
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime changeDate;
-
-
 }

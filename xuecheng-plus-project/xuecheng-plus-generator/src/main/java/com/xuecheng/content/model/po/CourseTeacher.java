@@ -13,8 +13,6 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * <p>
  * 课程-教师关系表
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("course_teacher")
@@ -58,6 +56,4 @@ public class CourseTeacher implements Serializable {
      */
     @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createDate;
-
-
 }
