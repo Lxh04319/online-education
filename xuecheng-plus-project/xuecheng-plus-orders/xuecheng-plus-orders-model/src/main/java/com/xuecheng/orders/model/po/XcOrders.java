@@ -13,8 +13,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @ToString
@@ -74,6 +72,4 @@ public class XcOrders implements Serializable {
      * 外部系统业务id
      */
     private String outBusinessId;
-
-
 }

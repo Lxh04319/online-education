@@ -10,14 +10,12 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 import org.springframework.security.oauth2.provider.token.TokenStore;
 
 /**
- * @author Administrator
  * @version 1.0
  **/
 @Configuration
 @EnableResourceServer
 @EnableGlobalMethodSecurity(securedEnabled = true,prePostEnabled = true)
 public class ResouceServerConfig extends ResourceServerConfigurerAdapter {
-
 
     //资源服务标识
     public static final String RESOURCE_ID = "xuecheng-plus";
@@ -40,6 +38,4 @@ public class ResouceServerConfig extends ResourceServerConfigurerAdapter {
                 .anyRequest().permitAll()
         ;
     }
-
-
 }

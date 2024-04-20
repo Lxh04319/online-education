@@ -13,8 +13,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @ToString
@@ -82,7 +80,4 @@ public class XcPayRecord implements Serializable {
      * 用户id
      */
     private String userId;
-
-
-
 }

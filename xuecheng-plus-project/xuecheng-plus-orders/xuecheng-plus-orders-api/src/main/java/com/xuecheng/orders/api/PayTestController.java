@@ -21,10 +21,9 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 扫码支付的测试
- * @date 2023/2/25 16:17
  */
 
 @Controller

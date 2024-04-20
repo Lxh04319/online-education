@@ -28,7 +28,6 @@ public class SecurityUtil {
             log.error("获取当前登录用户身份出错:{}", e.getMessage());
             e.printStackTrace();
         }
-
         return null;
     }
 
@@ -74,9 +73,5 @@ public class SecurityUtil {
         private LocalDateTime createTime;
 
         private LocalDateTime updateTime;
-
-
     }
-
-
 }

@@ -12,8 +12,6 @@ import java.io.Serializable;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @ToString
@@ -54,6 +52,4 @@ public class XcOrdersGoods implements Serializable {
      * 商品详情json,可为空
      */
     private String goodsDetail;
-
-
 }

@@ -1,8 +1,7 @@
 package com.xuecheng.orders.config;
  /**
  * @description 支付宝配置参数
- * @author Mr.M
- * @date 2022/10/20 22:45
+ * @author lxh11111
  * @version 1.0
  */
  public class AlipayConfig {

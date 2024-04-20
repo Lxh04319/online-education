@@ -17,10 +17,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author lxh11111
  * @version 1.0
@@ -44,7 +40,7 @@ public class CourseBaseInfoController {
         if(StringUtils.isNotEmpty(user.getCompanyId())){
             companyId=Long.parseLong(user.getCompanyId());
         }
-        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(companyId,pageParams, queryCourseParamsDto);
+        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto);
         return courseBasePageResult;
     }
     @ApiOperation("新增课程")

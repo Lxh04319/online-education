@@ -12,10 +12,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 请求支付宝查询订单状态
- * @date 2023/2/25 16:49
  */
 @SpringBootTest
 public class AliPayTest {
