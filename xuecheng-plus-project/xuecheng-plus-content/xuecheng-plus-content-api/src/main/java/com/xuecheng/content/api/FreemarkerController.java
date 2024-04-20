@@ -5,17 +5,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description Freemarker入门程序
- * @date 2023/2/19 16:12
  */
 @Controller
 public class FreemarkerController {
 
     @GetMapping("/testfreemarker")
     public ModelAndView test() {
-
         ModelAndView modelAndView = new ModelAndView();
         //指定模型
         modelAndView.addObject("name","小明");

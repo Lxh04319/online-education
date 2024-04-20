@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 远程调用媒资服务的接口
  */

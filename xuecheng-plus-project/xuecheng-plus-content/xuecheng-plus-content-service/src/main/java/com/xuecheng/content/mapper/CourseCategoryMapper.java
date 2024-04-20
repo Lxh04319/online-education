@@ -10,8 +10,6 @@ import java.util.List;
  * <p>
  * 课程分类 Mapper 接口
  * </p>
- *
- * @author itcast
  */
 public interface CourseCategoryMapper extends BaseMapper<CourseCategory> {
 

@@ -7,10 +7,9 @@ import com.xuecheng.content.model.dto.TeachplanDto;
 import java.util.List;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 课程计划管理相关接口
- * @date 2023/2/14 12:10
  */
 public interface TeachplanService {
  /**
@@ -30,8 +29,6 @@ public interface TeachplanService {
   * @description 教学计划绑定媒资
   * @param bindTeachplanMediaDto
   * @return com.xuecheng.content.model.po.TeachplanMedia
-  * @author Mr.M
-  * @date 2022/9/14 22:20
   */
  public void associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto);
 }

@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
  */
@@ -70,7 +70,6 @@ public class CourseBaseInfoController {
         return courseBaseInfo;
     }
 
-
     @ApiOperation("修改课程")
     @PutMapping("/course")
     public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated(ValidationGroups.Update.class) EditCourseDto editCourseDto){
@@ -79,7 +78,4 @@ public class CourseBaseInfoController {
         CourseBaseInfoDto courseBaseInfoDto = courseBaseInfoService.updateCourseBase(companyId, editCourseDto);
         return courseBaseInfoDto;
     }
-
-
-
 }

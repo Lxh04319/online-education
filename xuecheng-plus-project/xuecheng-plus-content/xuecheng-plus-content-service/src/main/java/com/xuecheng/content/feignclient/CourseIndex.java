@@ -11,8 +11,6 @@ import java.time.LocalDateTime;
  * <p>
  * 课程索引信息
  * </p>
- *
- * @author itcast
  */
 @Data
 public class CourseIndex implements Serializable {
@@ -91,7 +89,6 @@ public class CourseIndex implements Serializable {
      */
     private String description;
 
-
     /**
      * 发布时间
      */
@@ -127,6 +124,4 @@ public class CourseIndex implements Serializable {
      * 课程有效期天数
      */
     private Integer validDays;
-
-
 }

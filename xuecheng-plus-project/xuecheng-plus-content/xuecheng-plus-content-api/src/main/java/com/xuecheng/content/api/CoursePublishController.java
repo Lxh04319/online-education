@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
  */
@@ -21,7 +21,6 @@ public class CoursePublishController {
 
     @Autowired
     CoursePublishService coursePublishService;
-
 
     @GetMapping("/coursepreview/{courseId}")
     public ModelAndView preview(@PathVariable("courseId") Long courseId) {
@@ -50,6 +49,4 @@ public class CoursePublishController {
         Long companyId = 1232141425L;
         coursePublishService.publish(companyId,courseId);
     }
-
-
 }

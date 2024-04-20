@@ -9,10 +9,9 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
- * @date 2023/2/24 11:26
  */
 @Slf4j
 public class SecurityUtil {
@@ -32,10 +31,8 @@ public class SecurityUtil {
             log.error("获取当前登录用户身份出错:{}", e.getMessage());
             e.printStackTrace();
         }
-
         return null;
     }
-
 
     @Data
     public static class XcUser implements Serializable {
@@ -79,9 +76,5 @@ public class SecurityUtil {
         private LocalDateTime createTime;
 
         private LocalDateTime updateTime;
-
-
     }
-
-
 }

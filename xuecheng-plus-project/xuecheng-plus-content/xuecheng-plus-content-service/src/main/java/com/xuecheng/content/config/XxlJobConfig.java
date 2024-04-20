@@ -74,5 +74,4 @@ public class XxlJobConfig {
      *          String ip_ = inetUtils.findFirstNonLoopbackHostInfo().getIpAddress();
      */
 
-
 }

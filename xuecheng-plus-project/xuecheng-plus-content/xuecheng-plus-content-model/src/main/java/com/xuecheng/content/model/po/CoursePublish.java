@@ -12,8 +12,6 @@ import java.time.LocalDateTime;
  * <p>
  * 课程发布
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("course_publish")
@@ -156,6 +154,4 @@ public class CoursePublish implements Serializable {
      * 课程有效期天数
      */
     private Integer validDays;
-
-
 }

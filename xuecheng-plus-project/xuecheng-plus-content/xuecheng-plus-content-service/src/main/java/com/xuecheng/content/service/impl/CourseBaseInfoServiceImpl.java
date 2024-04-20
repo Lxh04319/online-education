@@ -229,18 +229,13 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
             //插入数据库
             int insert = courseMarketMapper.insert(courseMarketNew);
             return insert;
-        }else{
+        }else {
             //将courseMarketNew拷贝到courseMarket
-            BeanUtils.copyProperties(courseMarketNew,courseMarket);
+            BeanUtils.copyProperties(courseMarketNew, courseMarket);
             courseMarket.setId(courseMarketNew.getId());
             //更新
             int i = courseMarketMapper.updateById(courseMarket);
             return i;
         }
-
-
     }
-
-
-
 }

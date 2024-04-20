@@ -10,8 +10,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("teachplan_media")
@@ -58,6 +56,4 @@ public class TeachplanMedia implements Serializable {
      * 修改人
      */
     private String changePeople;
-
-
 }

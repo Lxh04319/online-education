@@ -41,10 +41,9 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 课程发布相关接口实现
- * @date 2023/2/21 10:04
  */
 @Slf4j
 @Service

@@ -21,7 +21,7 @@ import org.springframework.stereotype.Component;
 import java.io.File;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 课程发布的任务类
  */
@@ -98,7 +98,6 @@ public class CoursePublishTask extends MessageProcessAbstract {
         if(!add){
             XueChengPlusException.cast("失败");
         }
-
         //完成
         mqMessageService.completedStageTwo(taskId);
     }

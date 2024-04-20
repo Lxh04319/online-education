@@ -2,8 +2,8 @@
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:mysql://localhost:3306/xc402_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
-#    username: root
-#    password: 20040507
+#    username: *
+#    password: *
 
 spring:
   application:

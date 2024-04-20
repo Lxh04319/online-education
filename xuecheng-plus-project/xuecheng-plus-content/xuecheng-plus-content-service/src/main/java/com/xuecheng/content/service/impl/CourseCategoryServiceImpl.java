@@ -13,10 +13,9 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
- * @date 2023/2/12 14:49
  */
 @Slf4j
 @Service
@@ -50,11 +49,7 @@ public class CourseCategoryServiceImpl implements CourseCategoryService {
                 //到每个节点的子节点放在父节点的childrenTreeNodes属性中
                 courseCategoryParent.getChildrenTreeNodes().add(item);
             }
-
-
-
         });
-
         return courseCategoryList;
     }
 }

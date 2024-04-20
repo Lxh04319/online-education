@@ -3,10 +3,9 @@ package com.xuecheng.content.model.dto;
 import lombok.Data;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 新增大章节、小章节、修改章节信息
- * @date 2023/2/14 14:54
  */
 @Data
 public class SaveTeachplanDto {
@@ -36,7 +35,6 @@ public class SaveTeachplanDto {
      */
     private String mediaType;
 
-
     /**
      * 课程标识
      */
@@ -46,7 +44,6 @@ public class SaveTeachplanDto {
      * 课程发布标识
      */
     private Long coursePubId;
-
 
     /**
      * 是否支持试学或预览（试看）

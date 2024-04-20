@@ -9,8 +9,6 @@ import java.io.Serializable;
  * <p>
  * 课程分类
  * </p>
- *
- * @author itcast
  */
 @Data
 @TableName("course_category")
@@ -52,6 +50,4 @@ public class CourseCategory implements Serializable {
      * 是否叶子
      */
     private Integer isLeaf;
-
-
 }

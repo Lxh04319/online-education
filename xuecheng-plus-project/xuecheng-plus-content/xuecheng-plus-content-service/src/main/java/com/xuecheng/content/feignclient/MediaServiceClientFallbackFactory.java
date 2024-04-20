@@ -8,10 +8,9 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
- * @date 2023/2/22 11:09
  */
 @Slf4j
 @Component

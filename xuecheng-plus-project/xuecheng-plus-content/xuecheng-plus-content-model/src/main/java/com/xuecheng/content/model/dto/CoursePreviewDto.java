@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 课程预览模型类
  */

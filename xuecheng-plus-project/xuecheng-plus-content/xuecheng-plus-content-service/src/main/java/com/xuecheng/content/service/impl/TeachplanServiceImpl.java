@@ -18,10 +18,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
- * @date 2023/2/14 12:11
  */
 @Service
 public class TeachplanServiceImpl implements TeachplanService {
@@ -66,7 +65,6 @@ public class TeachplanServiceImpl implements TeachplanService {
             BeanUtils.copyProperties(saveTeachplanDto,teachplan);
             teachplanMapper.updateById(teachplan);
         }
-
     }
 
     //绑定
