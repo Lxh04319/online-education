@@ -19,7 +19,6 @@ import java.util.regex.Pattern;
  * <P>
  * 通用工具类
  * </p>
- *
  */
 public class CommonUtil {
 

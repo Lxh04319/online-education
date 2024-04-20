@@ -1,10 +1,9 @@
 package com.xuecheng.base.exception;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 本项目自定义异常类型
- * @date 2023/2/12 16:56
  */
 public class XueChengPlusException extends RuntimeException {
 

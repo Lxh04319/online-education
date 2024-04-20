@@ -9,7 +9,6 @@ import java.util.List;
  * 此文件作为视频文件处理父类，提供：
  * 1、查看视频时长
  * 2、校验两个视频的时长是否相等
- *
  */
 public class VideoUtil {
 

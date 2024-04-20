@@ -8,7 +8,6 @@ import java.util.Map;
  * <P>
  * 身份证号工具类
  * </p>
- *
  */
 public class IDCardUtil {
 

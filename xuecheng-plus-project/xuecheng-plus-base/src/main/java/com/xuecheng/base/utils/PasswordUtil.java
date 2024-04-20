@@ -10,9 +10,7 @@ import java.util.Random;
  * <P>
  * MD5加盐加密
  * </p>
- *
  */
-
 public class PasswordUtil {
 	/**
 	 * 生成含有随机盐的密码

@@ -5,8 +5,6 @@ import java.util.Random;
 
 /**
  * 随机字符串工具
- *
- *
  */
 public class RandomStringUtil {
         /**
