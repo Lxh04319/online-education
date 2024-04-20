@@ -3,10 +3,9 @@ package com.xuecheng.checkcode.model;
 import lombok.Data;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 验证码生成结果类
- * @date 2022/9/29 15:48
  */
 @Data
 public class CheckCodeResultDto {

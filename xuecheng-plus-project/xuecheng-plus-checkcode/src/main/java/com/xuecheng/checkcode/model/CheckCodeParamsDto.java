@@ -5,10 +5,9 @@ import lombok.Data;
 import java.util.Map;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 验证码生成参数类
- * @date 2022/9/29 15:48
  */
 @Data
 public class CheckCodeParamsDto {

@@ -9,7 +9,6 @@ import java.util.Properties;
 
 /**
  * Kaptcha图片验证码配置类
- * @author 攀博课堂(www.pbteach.com)
  * @version 1.0
  **/
 @Configuration

@@ -9,5 +9,4 @@ class XuechengPlusCheckcodeApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
