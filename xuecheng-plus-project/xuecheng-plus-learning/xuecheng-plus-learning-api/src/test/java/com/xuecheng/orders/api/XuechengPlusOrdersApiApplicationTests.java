@@ -1,13 +1,12 @@
 package com.xuecheng.orders.api;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class XuechengPlusOrdersApiApplicationTests {
+public class XuechengPlusOrdersApiApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
-
 }

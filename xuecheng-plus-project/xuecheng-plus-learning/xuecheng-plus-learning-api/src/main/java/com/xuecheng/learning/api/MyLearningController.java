@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 我的学习接口
- * @date 2022/10/27 8:59
  */
 @Api(value = "学习过程管理接口", tags = "学习过程管理接口")
 @Slf4j

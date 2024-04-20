@@ -7,10 +7,9 @@ import lombok.ToString;
 import java.time.LocalDateTime;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 我的课程查询条件
- * @date 2022/10/6 9:42
  */
 @Data
 @ToString

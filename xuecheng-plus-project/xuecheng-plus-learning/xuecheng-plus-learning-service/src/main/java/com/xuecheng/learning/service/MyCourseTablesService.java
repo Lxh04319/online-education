@@ -4,10 +4,9 @@ import com.xuecheng.learning.model.dto.XcChooseCourseDto;
 import com.xuecheng.learning.model.dto.XcCourseTablesDto;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description 选课相关的接口
- * @date 2023/2/25 12:00
  */
 public interface MyCourseTablesService {
 

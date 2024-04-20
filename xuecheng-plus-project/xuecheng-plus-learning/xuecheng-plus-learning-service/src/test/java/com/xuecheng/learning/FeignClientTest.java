@@ -11,10 +11,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.time.LocalDateTime;
 
 /**
- * @author Mr.M
+ * @author lxh11111
  * @version 1.0
  * @description TODO
- * @date 2023/2/22 20:14
  */
 @SpringBootTest
 public class FeignClientTest {
