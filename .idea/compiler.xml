@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-system" enabled="true">
+      <profile name="Annotation profile for xuecheng-plus-learning" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -20,6 +20,7 @@
         <module name="xuecheng-plus-learning-model" />
         <module name="xuecheng-plus-content-service" />
         <module name="xuecheng-plus-search" />
+        <module name="xuecheng-plus-orders-model" />
         <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-base" />
         <module name="xuecheng-plus-media-service (1)" />
@@ -33,6 +34,8 @@
         <module name="xuecheng-plus-system-api" />
         <module name="xuecheng-plus-auth" />
         <module name="xuecheng-plus-content-api" />
+        <module name="xuecheng-plus-orders-api" />
+        <module name="xuecheng-plus-orders-service" />
         <module name="xuecheng-plus-learning-service" />
       </profile>
     </annotationProcessing>

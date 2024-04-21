@@ -40,7 +40,7 @@ public class CourseBaseInfoController {
         if(StringUtils.isNotEmpty(user.getCompanyId())){
             companyId=Long.parseLong(user.getCompanyId());
         }
-        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto);
+        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto, String.valueOf(companyId));
         return courseBasePageResult;
     }
     @ApiOperation("新增课程")
