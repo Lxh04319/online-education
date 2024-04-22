@@ -1,6 +1,7 @@
 package com.xuecheng.learning.api;
 
 import com.xuecheng.base.model.RestResponse;
+import com.xuecheng.learning.util.SecurityUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -22,9 +23,10 @@ public class MyLearningController {
     @ApiOperation("获取视频")
     @GetMapping("/open/learn/getvideo/{courseId}/{teachplanId}/{mediaId}")
     public RestResponse<String> getvideo(@PathVariable("courseId") Long courseId, @PathVariable("courseId") Long teachplanId, @PathVariable("mediaId") String mediaId) {
-
-        return null;
-
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        String userId = user.getId();
+        //获取视频
+        RestResponse<String> restResponse = learningService.getVideo(userId, courseId, teachplanId, mediaId);
+        return restResponse;
     }
-
 }
